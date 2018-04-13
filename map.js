@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <style>
-      #map {
-        height: 400px;
-        width: 100%;
-       }
-    </style>
-  </head>
-  <body>
-    <h3>My Google Maps Demo</h3>
-    <div id="map"></div>
     <script>
       function initMap() {
         var uluru = {lat: -25.363, lng: 131.044};
@@ -24,9 +11,3 @@
         });
       }
     </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=
-AIzaSyCY8WxMNUjemHg8GTREvoz9w9vGAbLof-Q&callback=initMap">
-    </script>
-  </body>
-</html>
